@@ -8,7 +8,7 @@ function ListaAlunos() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch("http://127.0.0.1:8000/alunos");
+        const response = await fetch("http://150.165.138.47/alunos");
         if (!response.ok){
           //se a resposta não for ok, lançamos uma exceção com a mensagem de erro e o status code
           //nesse caso status code é arbitrário, podemos definir um outro arquivo com as possíveis mensagens de erro e status code
