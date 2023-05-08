@@ -9,4 +9,4 @@ class serverError extends Error {
     }
   }
   
-  module.exports = serverError;
+  export default serverError;
