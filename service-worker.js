@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ImpulsoGov---EstagioFullStack/precache-manifest.923542e6d4e9dca9450e745b64f80a73.js"
+  "/ImpulsoGov---EstagioFullStack/precache-manifest.d18f79235e1710b46316267d3cdb0548.js"
 );
 
 workbox.clientsClaim();
