@@ -7,7 +7,7 @@ from alunos import alunos
 app = FastAPI()
 
 origins = [
-    "http://localhost:3000",
+    "https://jvns2010.github.io",
     "localhost:3000"
 ]
 
