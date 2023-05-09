@@ -58,10 +58,10 @@ Endpoint: /alunos
 Método: GET
 
 Exemplo de Requisição:
-
-    ```bash
+   ```bash
 GET /alunos
-```
+
+
 Exemplo de Resposta:
 ```json
 {
@@ -83,8 +83,7 @@ A API ImpulsoGov---EstagioFullStack possui testes automatizados implementados us
 Para executar os testes, siga as etapas abaixo:
 
 1. Navegue até o diretório raiz do projeto.
-2. Execute o seguinte comando para instalar as dependências de desenvolvimento:
+2. Execute o seguinte comando para rodar os testes:
    ```bash
    pytest
 ```
-   
