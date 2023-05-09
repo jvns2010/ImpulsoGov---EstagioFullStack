@@ -41,28 +41,29 @@ Parâmetros:
 
 fuso_horario (opcional): O fuso horário desejado para obter o horário atual. Se não for especificado, o fuso horário padrão é "America/Sao_Paulo".
 Exemplo de Requisição:
-    ```bash
-    GET /horarios/?fuso_horario=America/New_York
-
+   ```bash
+GET /horarios/?fuso_horario=America/New_York
+```
 
 Exemplo de Resposta:
-json
+```json
 {
   "Horário": "10:30:45",
   "Fuso horário": "America/New_York"
 }
-
+```
 2. Obter Alunos
 Endpoint: /alunos
 
 Método: GET
 
 Exemplo de Requisição:
+
     ```bash
-    GET /alunos
-
+GET /alunos
+```
 Exemplo de Resposta:
-
+```json
 {
   "alunos": [
     {
@@ -75,7 +76,7 @@ Exemplo de Resposta:
     }
   ]
 }
-
+```
 ## Testes
 A API ImpulsoGov---EstagioFullStack possui testes automatizados implementados usando a biblioteca pytest. Antes de executar os testes, certifique-se de ter instalado as dependências de desenvolvimento listadas no arquivo `requirements.txt`.
 
@@ -85,3 +86,5 @@ Para executar os testes, siga as etapas abaixo:
 2. Execute o seguinte comando para instalar as dependências de desenvolvimento:
    ```bash
    pytest
+```
+   
