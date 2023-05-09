@@ -86,4 +86,4 @@ Para executar os testes, siga as etapas abaixo:
 2. Execute o seguinte comando para rodar os testes:
    ```bash
    pytest
-```
+
