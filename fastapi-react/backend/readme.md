@@ -41,9 +41,9 @@ Parâmetros:
 
 fuso_horario (opcional): O fuso horário desejado para obter o horário atual. Se não for especificado, o fuso horário padrão é "America/Sao_Paulo".
 Exemplo de Requisição:
-
-```bash
+    ```bash
     GET /horarios/?fuso_horario=America/New_York
+
 
 Exemplo de Resposta:
 json
@@ -59,7 +59,7 @@ Método: GET
 
 Exemplo de Requisição:
 
-```bash
+    ```bash
     GET /alunos
 
 Exemplo de Resposta:
