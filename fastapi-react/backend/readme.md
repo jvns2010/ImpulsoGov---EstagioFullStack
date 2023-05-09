@@ -60,7 +60,7 @@ Método: GET
 Exemplo de Requisição:
    ```bash
 GET /alunos
-
+```
 
 Exemplo de Resposta:
 ```json
